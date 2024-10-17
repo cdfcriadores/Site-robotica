@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,100..900&display=swap');
+
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+body {
+    background-color: #459cff;
+    color: white;
+}
+.cabecalho{
+    display: flex;
+    flex-direction: column;
+    color: rgb(6, 0, 111);
+    align-items: center;
+    font-family: "Archivo", sans-serif;
+    font-weight: 900;
+    font-size: 1rem;
+
+}
+.titulo {
+    margin: 2% 0 1% 0;
+}
+.subtitulo {
+    font-size: 1rem;
+    margin: 0 15%;
+}
+.meio{
+
+display: flex;
+flex-direction: column;
+justify-content: center;
+margin: 5%;
+}
+.texto_1{
+
+    margin: 0 15%;
+    font-family: "Archivo", sans-serif;
+    font-weight: 300;
+    font-size: 1.5rem;
+
+}
