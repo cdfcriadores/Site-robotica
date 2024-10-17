@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,100..900&display=swap');
+* {
+    margin: 0%;
+    padding: 0%;
+}
+body {
+    background-color: #000000;
+    color: white;
+}
+
+.cabecalho {
+    background-color: #212121;
+    display: flex;
+    justify-content: center;
+   
+}
+.titulo {
+    font-family: "Archivo", sans-serif;
+    font-weight: 400;
+    display: flex;
+    justify-content: center;
+    gap: 2%;
+}
+.logoheader {
+    width: 5%;
+}
+.meio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.titulo__meio {
+    font-family: "Archivo", sans-serif;
+    margin: 2%;
+    font-weight: 600;
+    font-size: 3rem;
+}
+.texto_1 {
+    margin: 0 15% 0 15%;
+    font-family: "Archivo", sans-serif;
+    font-weight: 300;
+    font-size: 1.5rem;
+}
+.texto_com_foto {
+    display: flex;
+    gap: 7%;
+}
+
+.texto_2 {
+    margin: 0 0 0 15% ;
+    width: 30%;
+    font-size: 1.5rem;
+}
+.logomain {
+    width: 25%;
+}
+.texto_projetos {
+    margin: 0 15% 0 15%;
+    font-family: "Archivo", sans-serif;
+    font-weight: 500;
+    font-size: 2rem;
+}
