@@ -107,3 +107,13 @@ body {
     height: 25vh;
     width: 20vw;
 }
+
+.rodape {
+    color: gray;
+    background-color: #1d1d1d;
+    display: flex;
+    justify-content: center;
+}
+.rodape_texto {
+    margin: 2%;
+}
